@@ -5,7 +5,7 @@ Script used for testing the performance and system resources usage of five remot
 
 The tests are performed in three distinct remote backup operations: full backup, incremental backup and data restoration. Additionally they are performed with three configurations: without compression and encryption, only with compression and with both activated.
 
-This script was produced as part of the paper "**Open Source Tools for Remote Incremental Backups on Linux: An Experimental Evaluation**" available here: http://www.si-journal.org/index.php/JSI/article/view/205
+This script was produced as part of the paper "**Open Source Tools for Remote Incremental Backups on Linux: An Experimental Evaluation**" available here: https://www.cisuc.uc.pt/download-file/13816/eGlo1DRblRnbkKPT5zPp
 
 ## Usage
 
