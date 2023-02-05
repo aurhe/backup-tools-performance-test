@@ -21,17 +21,17 @@ Server: sshd
 
 ## Tests configuration
 
-  #  | tool          | compression | encryption
-:---:| ------------- |:-----------:|:----------:
-  0  | rsync         |             |
-  1  | rdiff-backup  |             |
-  2  | rdiff-backup  |   **x**     |
-  3  | duplicity     |   **x**     |
-  4  | duplicity     |   **x**     |  **x**
-  5  | areca         |             |
-  6  | areca         |   **x**     |
-  7  | areca         |   **x**     |  **x**
-  8  | link-backup   |             |
+|  #  | tool          | compression | encryption |
+|:---:| ------------- |:-----------:|:----------:|
+|  0  | rsync         |             |            |
+|  1  | rdiff-backup  |             |            |
+|  2  | rdiff-backup  |   **x**     |            |
+|  3  | duplicity     |   **x**     |            |
+|  4  | duplicity     |   **x**     |  **x**     |
+|  5  | areca         |             |            |
+|  6  | areca         |   **x**     |            |
+|  7  | areca         |   **x**     |  **x**     |
+|  8  | link-backup   |             |            |
 
 Test groups: [0,1,5,8], [2,3,6], [4,7]
 
